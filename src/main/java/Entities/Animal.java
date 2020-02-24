@@ -1,10 +1,12 @@
+package Entities;
+
 public class Animal {
 
     private String name;
     private int age;
     private String color;
     private int health;
-    private int foodLvl;
+    private double weight;
 
     public String getName() {
         return name;
@@ -38,14 +40,11 @@ public class Animal {
         this.health = health;
     }
 
-    public int getFoodLvl() {
-        return foodLvl;
+    public double getWeight() {
+        return weight;
     }
 
-    public void setFoodLvl(int foodLvl) {
-        this.foodLvl = foodLvl;
+    public void setWeight(double weight) {
+        this.weight = weight;
     }
-
-
-
 }

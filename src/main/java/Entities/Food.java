@@ -1,3 +1,5 @@
+package Entities;
+
 public class Food {
 
     private String type;
